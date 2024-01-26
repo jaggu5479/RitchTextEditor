@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>SourceEdit</h1>
+    <div id="navbar">
+      <div class="text-format">
+        <!--Font Weight-->
+        <div class="format-type">
+          <select id="font-weight" name="font-weight" title="Heading">
+            <option data-icon="./Assets/icons/format_h1.svg" value="h1">Heading 1</option>
+            <option value="h2" selected>Heading 2</option>
+            <option value="h3">Heading 3</option>
+            <option value="bullet_list">Bullet List</option>
+            <option value="numbered_list">Numbered List</option>
+            <option value="code_block">Code Block</option>
+          </select>
+        </div>
+        <!--Font Family-->
+        <div class="font format-type">
+          <select
+            name="font_selection"
+            id="font-select"
+            title="Select Font Family"
+          >
+            <option value="1" class="font_family" active>Font 2</option>
+            <option value="2" class="font_family">Font 3</option>
+          </select>
+        </div>
+        <!--Font size-->
+        <div class="format-type">
+          <select id="font-size" name="font-size" title="Font Size">
+            <option value="12">12px</option>
+            <option value="14" selected>14px</option>
+            <option value="16">16px</option>
+            <option value="20">20px</option>
+            <option value="24">24px</option>
+          </select>
+        </div>
+
+        <div class="format-type">
+          <button type="button" title="Bold" class="menu-icon">
+            <img src="/Assets/icons/format_bold.svg" alt="" />
+          </button>
+          <button type="button" title="Underline" class="menu-icon">
+            <img src="/Assets/icons/format_underlined.svg" alt="" />
+          </button>
+          <button type="button" title="Italic" class="menu-icon">
+            <img src="/Assets/icons/format_italic.svg" alt="" />
+          </button>
+          <button type="button" title="Strikethrough" class="menu-icon">
+            <img src="/Assets/icons/strikethrough_s.svg" alt="" />
+          </button>
+        </div>
+        <div class="format-type">
+          <button type="button" title="Align Left" class="menu-icon">
+            <img src="/Assets/icons/align_left.svg" alt="" />
+          </button>
+          <button type="button" title="Align Center" class="menu-icon">
+            <img src="/Assets/icons/format_align_center.svg" alt="" />
+          </button>
+          <button type="button" title="Align Right" class="menu-icon">
+            <img src="/Assets/icons/format_align_right.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="editor" contenteditable="true"></div>
+    <div id="dom_output"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

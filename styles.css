@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#editor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 200px;
+}
+
+.text-format {
+    width: max-content;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+
+.format-type {
+  display: inline;
+}
+
+select {
+    padding: 5px 5px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+#font-select {
+  width: 100px;
+}
+
+.menu-icon {
+    display: inline;
+}
+
