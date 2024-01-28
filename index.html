@@ -13,7 +13,7 @@
         <!--Font Weight-->
         <div class="format-type">
           <select id="font-weight" name="font-weight" title="Heading">
-            <option data-icon="./Assets/icons/format_h1.svg" value="h1">Heading 1</option>
+            <option value="h1">Heading 1</option>
             <option value="h2" selected>Heading 2</option>
             <option value="h3">Heading 3</option>
             <option value="bullet_list">Bullet List</option>
@@ -43,29 +43,35 @@
           </select>
         </div>
 
+        <!-- Text Formating-->
         <div class="format-type">
-          <button type="button" title="Bold" class="menu-icon">
+          <button type="button" title="Bold" id="bold" class="menu-icon">
             <img src="/Assets/icons/format_bold.svg" alt="" />
           </button>
-          <button type="button" title="Underline" class="menu-icon">
+          <button type="button" title="Underline" id="underline" class="menu-icon">
             <img src="/Assets/icons/format_underlined.svg" alt="" />
           </button>
-          <button type="button" title="Italic" class="menu-icon">
+          <button type="button" title="Italic" id="italic" class="menu-icon">
             <img src="/Assets/icons/format_italic.svg" alt="" />
           </button>
-          <button type="button" title="Strikethrough" class="menu-icon">
+          <button type="button" title="Strikethrough" id="strikethrough" class="menu-icon">
             <img src="/Assets/icons/strikethrough_s.svg" alt="" />
           </button>
         </div>
+
+        <!-- Text Justification -->
         <div class="format-type">
-          <button type="button" title="Align Left" class="menu-icon">
+          <button type="button" title="Justify Left" id="justify-left" class="menu-icon">
             <img src="/Assets/icons/align_left.svg" alt="" />
           </button>
-          <button type="button" title="Align Center" class="menu-icon">
+          <button type="button" title="Justify Center" id="justify-center" class="menu-icon">
             <img src="/Assets/icons/format_align_center.svg" alt="" />
           </button>
-          <button type="button" title="Align Right" class="menu-icon">
+          <button type="button" title="Justify Right" id="justify-right" class="menu-icon">
             <img src="/Assets/icons/format_align_right.svg" alt="" />
+          </button>
+          <button type="button" title="Justify" id="justify" class="menu-icon">
+            <img src="/Assets/icons/justify.svg" alt="" />
           </button>
         </div>
       </div>
